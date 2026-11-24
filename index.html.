@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test de sécurité</title>
+</head>
+<body style="background:#111;color:white;text-align:center;font-family:Arial;padding:40px">
+<h1>Simulation de phishing</h1>
+<p>Ceci est un test éducatif de cybersécurité.</p>
+<button onclick="document.getElementById('resultat').innerText='Test réussi ! Tu as cliqué sur le lien.'">
+Tester le lien
+</button>
+<p id="resultat"></p>
+</body>
+</html>
